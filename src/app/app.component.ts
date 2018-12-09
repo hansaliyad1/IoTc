@@ -63,7 +63,7 @@ export class AppComponent implements OnInit {
   onClickWrite () {
     this.authService.fetch().subscribe(response => {
 
-      const totalData = 10000;
+      const totalData = 1000;
       const t1 = new Date().getTime();
       const promise1 = new Promise((resolve) => {
 
@@ -98,7 +98,7 @@ export class AppComponent implements OnInit {
 
     this.authService.fetch().subscribe(response => {
 
-      const totalData = 10000;
+      const totalData = 1000;
       const t1 = new Date().getTime();
       const promise1 = new Promise((resolve) => {
 
