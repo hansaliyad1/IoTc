@@ -46,7 +46,11 @@
   <!-- Submit Button -->
   <input [disabled]="!formSearch.valid" class="btn btn-primary" type="submit" value="Search" />
 
-</form>
+</form><br/>
+
+<input class="btn btn-primary" type="button" value="Write" (click)="onClickWrite()">
+
+<input class="btn btn-primary" type="button" value="Read" (click)="onClickRead()">
 
 <div class="box box-default">
   <code>

@@ -48,4 +48,8 @@ export class AuthService {
     return this.http.get(this.domain + 'bcdb/search/' + data.term, this.options).map(res => res.json());
   }
 
+  fetch() {
+    return this.http.get('../assets/blockchain.json').map(res => res.json());
+  }
+
 }
